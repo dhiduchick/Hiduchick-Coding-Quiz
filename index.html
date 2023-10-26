@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Coding Quiz</title>
+        <link rel='stylesheet' href="./Assets/style.css">
+    </head>    
+
+    <body>
+
+        <header>
+            <button id="viewHighScores">View High Scores</button>
+            <p style="display:none">Time Left: <span id="timerTag">9999</span></p>
+        </header>
+        <main>
+            <h1 id="title">Coding Quiz</h1>
+            <p id="instructions">Try to answering the following coding-related questions within the time limit. An incorrect answer will penalize you by taking 10 seconds off of your time left!</p>
+            <button id="startBtn">Start Quiz</button>
+            <ul>
+
+            </ul>
+            <div id="submit-highscore">
+                <h1>Finished!</h1>
+                <p>Your final score is: <span id='scoreSpan'>999</span></p>
+                <div id="highscore-input"> 
+                    <p>Enter Name:</p>
+                    <input type="text" id="fname" name="fname" value="">
+                    <button id="submitHighscoreBtn">Submit</button>
+                </div>
+            </div>
+            <div id="display-highscore-div"> 
+                <h1>Highscores</h1>
+                <ol>
+                    
+                </ol>
+                <button id="goBackBtn">Go Back</button> 
+                <button id="clearHighscoreBtn">Clear Highscores</button> 
+            </div>
+        </main>
+        <footer>
+            <p>🍀Made by Daelyn Hiduchick🍀</p>
+        </footer>
+        <script src="./Assets/script.js"></script>
+    </body>
+    </html>
