@@ -1,7 +1,7 @@
 var timerTag = document.querySelector(`#timerTag`); 
 var timerPTag  = document.querySelector(`header`).children[1]; 
 var submitHighscoreBtn = document.querySelector(`#submitHighscoreBtn`); 
-var viewHighscoresBtn = document.querySelector(`#viewHighscoresBtn`); 
+var viewHighScoresBtn = document.querySelector(`#viewHighScoresBtn`); 
 var clearHighscoreBtn = document.querySelector(`#clearHighscoreBtn`); 
 var answerButtonLst = document.body.querySelector(`ul`); 
 var goBackHighscoreBtn = document.querySelector(`#goBackBtn`); 
@@ -45,7 +45,7 @@ function setUpGame() {
     titleTag.textContent = `Coding Quiz Challenge`; 
     titleTag.style.display = `block`; 
     document.querySelector(`#instructions`).style.display = `block`; 
-    viewHighscoresBtn.style.display = `block`; 
+    viewHighScoresBtn.style.display = `block`; 
     startBtn.style.display = `block`; 
 
     return;
@@ -57,7 +57,7 @@ function startGame() {
     questionIndexNumber = 0; 
 
  
-    viewHighscoresBtn.style.display = `none`;
+    viewHighScoresBtn.style.display = `none`;
     startBtn.style.display = `none`; 
     document.querySelector(`#instructions`).style.display = `none`; 
     timerPTag.style.display = `block`;
@@ -129,7 +129,7 @@ function nextQuestion() {
 
 function endGame() { 
     gameEnded = true; 
-    score = timeLeft; 
+    score = score; 
    
     timerPTag.style.display = `none`; 
     titleTag.style.display = `none`; 
@@ -240,7 +240,7 @@ function clearHighscores() {
 function init() {
     startBtn.addEventListener(`click`, startGame); 
     answerButtonLst.addEventListener(`click`, checkAnswer); 
-    viewHighscoresBtn.addEventListener(`click`, showHighscores); 
+    viewHighScoresBtn.addEventListener(`click`, showHighscores); 
     submitHighscoreBtn.addEventListener(`click`, storeScoreAndName); 
     clearHighscoreBtn.addEventListener(`click`, clearHighscores); 
     goBackHighscoreBtn.addEventListener(`click`, setUpGame); 
