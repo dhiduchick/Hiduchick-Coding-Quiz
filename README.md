@@ -19,7 +19,7 @@ Just hit the start button to begin the coding quiz.
 ## Installation
 
 1. Clone the repo
-   git clone //!
+   git clone https://github.com/dhiduchick/Hiduchick-Coding-Quiz.git
 
 2. Open in VS Code. If you do not have VS code you must install it.
 
@@ -29,7 +29,7 @@ Just hit the start button to begin the coding quiz.
 * JavaScript
 
 ## Website
-//!
+https://dhiduchick.github.io/Hiduchick-Coding-Quiz/
 
 ## Demo 
 ![Website Demo GIF](./Assets/Images/Coding%20Quiz%20Demo.gif)
